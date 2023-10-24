@@ -1,5 +1,6 @@
 import {useState} from 'react';
-export default function Form(){
+
+export default function Email(){
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
     const [message, setMessage] = useState('');
@@ -30,15 +31,15 @@ export default function Form(){
 
     return (
         <form className='p-5 col-6'style={{border: "2px solid gray"}}>
-            <label className="form-label" for="name">Name:</label>
+            <label className="form-label" htmlFor="name">Name:</label>
             <input className="form-control" id="Name" type="text" value={name} onChange={e => setName(e.target.value)} onBlur={warning} />
-            <div id="nameHelp" class="form-text"> </div>
-            <label className="form-label" for="email">Email: </label>
+            <div id="nameHelp" className="form-text"> </div>
+            <label className="form-label" htmlFor="email">Email: </label>
             <input className="form-control" id="Email" type="email"value={email} onChange={e => setEmail(e.target.value)} onBlur={warning}/>
-            <div id="emailHelp" class="form-text"> </div>
-            <label className="form-label" for="message">Message:</label>
+            <div id="emailHelp" className="form-text"> </div>
+            <label className="form-label" htmlFor="message">Message:</label>
             <textarea className="form-control"  id="Message" value={message} onChange={e => setMessage(e.target.value)} onBlur={warning}/>
-            <div id="help" class="form-text"> {help} </div>
+            <div id="help" className="form-text"> {help} </div>
             
             <button type='submit' className="btn btn-primary mt-3" onClick={validate}>Send</button>
         </form>

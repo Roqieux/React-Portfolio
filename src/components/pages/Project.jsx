@@ -1,11 +1,11 @@
 import React from "react";
-import "./project.css";
-import cover1 from "../../assets/Proj1.jpg";
-import cover2 from "../../assets/Proj2.jpg";
-import cover3 from "../../assets/Proj3.jpg";
-import cover4 from "../../assets/Proj4.gif";
+// import "./project.css";
+import cover1 from "../../assets/Proj1.png";
+import cover2 from "../../assets/Proj2.png";
+import cover3 from "../../assets/Proj3.png";
+import cover4 from "../../assets/Proj4.png";
 import cover5 from "../../assets/Proj5.png";
-import cover6 from "../../assets/Proj6.jpg";
+import cover6 from "../../assets/Proj6.png";
 
 const data = [
   {
@@ -52,7 +52,7 @@ const data = [
   },
 ];
 
-function Portfolio() {
+function Projects() {
   return (
     <section id="portfolio">
       <h5>My Recent Work</h5>
@@ -90,4 +90,4 @@ function Portfolio() {
   );
 }
 
-export default Portfolio;
+export default Projects;

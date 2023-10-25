@@ -1,5 +1,4 @@
-// import styles from "../styles/Navigation.module.css";
-
+import "../styles/Navigation.css";
 import { Link, useLocation } from 'react-router-dom';
 
 // destructuring assignment to pluck off our variables from the props object

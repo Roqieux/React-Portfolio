@@ -1,0 +1,13 @@
+.img {
+    max-height: 150px;
+    max-width: 150px;
+    border-radius: 50%;    
+}
+
+.about-container {
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    transition: var(--transition);
+    background-color: #213547;
+    text-align: center;
+  }

@@ -1,0 +1,45 @@
+/* img{
+  max-width: 90%;
+}
+
+.project-container{
+  background: rgb(37, 73, 73);
+
+}
+
+.project-item{
+  min-width: 35%;
+  min-height: 500px;
+}
+
+.project-item-image{
+  max-width: 90%;
+}
+
+.project-btn{
+  position: fixed;
+} */
+
+.project-item {
+  border-radius: 2rem;
+  border: 1px solid transparent;
+  transition: var(--transition);
+  background-color: #213547;
+  text-align: center;
+}
+
+.project-item:hover {
+  border-color: var(--color-primary-variant);
+  background: transparent;
+}
+
+.project-item-image {
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.project-item h3 {
+  margin: 1rem 0 1rem;
+}
+
+

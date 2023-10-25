@@ -1,5 +1,5 @@
 import React from "react";
-// import "./project.css";
+import "../../styles/Project.css";
 import cover1 from "../../assets/Proj1.png";
 import cover2 from "../../assets/Proj2.png";
 import cover3 from "../../assets/Proj3.png";
@@ -54,29 +54,28 @@ const data = [
 
 function Projects() {
   return (
-    <section id="portfolio">
-      <h5>My Recent Work</h5>
-      <h2>Portfolio</h2>
+    <section id="project">
+      <h1 className="text-center">Portfolio</h1>
 
-      <div className="container portfolio__container">
+      <div className="row">
         {data.map(({ id, image, title, github, demo }) => {
           return (
-            <article key={id} className="portfolio__item">
-              <div className="portfolio__item-image">
+            <article key={id} className="project-item col-6-lg m-3">
+              <div className="project-item-image m-3">
                 <img src={image} alt={title} />
               </div>
               <h3>{title}</h3>
-              <div className="portfolio__item-cta">
+              <div className="">
                 <a
                   href={github}
-                  className="btn"
+                  className="btn btn-primary m-3 project-btn"
                   target="_blank"
                 >
                   GitHub
                 </a>
                 <a
                   href={demo}
-                  className="btn btn-primary"
+                  className="btn btn-primary m-3 project-btn"
                   target="_blank"
                 >
                   Live Site

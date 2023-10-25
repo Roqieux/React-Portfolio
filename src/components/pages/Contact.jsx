@@ -1,9 +1,10 @@
-import Form from '../Email'
+import Email from '../Email'
+
 export default function Contact() {
     return (
-      <div>
+      <div className='row'>
         <h1>Contact</h1>
-        <Form />
+        <Email />
       </div>
     );
   }

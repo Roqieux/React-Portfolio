@@ -30,7 +30,7 @@ export default function Email(){
     };
 
     return (
-        <form className='p-5 col-6'style={{border: "2px solid gray"}}>
+        <form className='p-5 col-12-sm'>
             <label className="form-label" htmlFor="name">Name:</label>
             <input className="form-control" id="Name" type="text" value={name} onChange={e => setName(e.target.value)} onBlur={warning} />
             <div id="nameHelp" className="form-text"> </div>

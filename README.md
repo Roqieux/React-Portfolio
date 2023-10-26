@@ -15,6 +15,9 @@ This react based portfolio is a step beyond just browsing my github. Check out m
 ## Installation 
 This application is deployed on [Netlify](https://venerable-khapse-8133f6.netlify.app/).
 
+![image](https://github.com/Roqieux/React-Portfolio/assets/133982261/d64c0ccf-027c-40ca-97a2-85414005fd46)
+
+
 ## License
 Please see the license in the repo
 
